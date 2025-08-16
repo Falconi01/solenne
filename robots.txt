@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.solenne.com.br/sitemap.xml
+
+# Principais páginas
+Allow: /
+Allow: /aesthetics
+Allow: /weightloss
+
+# Assets
+Allow: /assets/
+Allow: /images/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+
+# Bloquear arquivos de desenvolvimento
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /dist/
+Disallow: /*.map
+
+# Crawl delay (opcional)
+Crawl-delay: 1
